@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/NativeLayoutImage"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/icon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="6dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/NativeLayoutImage"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Xamarin Native Layout Sample Text Text Text Text Text Text Text Text Text"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginEnd="6dp"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="******"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="16sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="複雑なレイアウトも入れ子にすることで実現可能です。Androidの方が簡単なのでiOS側からレイアウトを組んで行く方が良いかもしれません。"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_marginTop="6dp"
+            android:textSize="12sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80000000"
+        android:textColor="#FFFFFF"
+        android:text="Sample"
+        android:textSize="12sp" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:l="clr-namespace:Sample.Layouts;assembly=Sample"
+	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" 
+	prism:ViewModelLocator.AutowireViewModel="True" 
+	x:Class="Sample.Views.MainPage" Title="NativeLayout">
+    <ScrollView>
+	    <StackLayout Padding="4">
+        
+    		<l:NativeLayout Sample="1" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="2" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="3" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="4" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="5" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="6" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="7" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="8" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="9" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="10" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="11" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="12" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="13" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+            <l:NativeLayout Sample="14" HorizontalOptions="FillAndExpand" HeightRequest="100" />
+	    </StackLayout>
+    </ScrollView>
+</ContentPage>
